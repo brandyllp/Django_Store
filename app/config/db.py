@@ -13,10 +13,9 @@ POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db',
-        'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
+        'USER': 'masteruser',
+        'PASSWORD': 'Brandy1001',
+        'HOST': 'database-2.cususk3yv9ie.us-east-1.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
-
