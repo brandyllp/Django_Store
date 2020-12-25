@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from core.erp.views import myfirtsview
+from core.erp.views import myfirtsview,mysecondview
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('prueba/', myfirtsview),
+    path('prueba/', myfirtsview, name="vista1"),
+    path('pueba2/', mysecondview, name="vista2")
 ]
